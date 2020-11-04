@@ -1,0 +1,20 @@
+.gridcontainer{
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  display: grid;
+grid-template-columns: auto auto;
+margin: 10%;
+}
+.griditem{
+  margin: 10%;
+
+}
+@media screen and (max-width: 1268px) {
+  .gridcontainer {
+    grid-template-columns: auto;
+  }
+  .griditem{
+      margin: 3% 20%;
+  }
+}
